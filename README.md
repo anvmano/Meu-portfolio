@@ -26,6 +26,10 @@ Desenvolvo e mantenho sistemas corporativos com C#/.NET, com experiência em reg
 
 Backend e dashboard para consultar históricos de sensores e clima público por CEP, cidade ou localização.
 
+![Dashboard da aplicação C#/.NET com indicadores e gráficos climáticos de São Paulo](assets/projetos/estacao-dotnet-desktop.png)
+
+*Aplicação .NET 8 executada localmente, no modo público, com dados externos. Captura de 20/10/2026.*
+
 - **Implementação:** API com controllers, estatísticas, séries, comparações, exportações e acesso interno por Firebase ID token e lista de e-mails autorizados.
 - **Stack:** C#, .NET 8, ASP.NET Core, Firebase REST, JavaScript e Chart.js; testes com xUnit e Playwright.
 - **Diferencial:** evolução do dashboard estático para uma solução com projetos Domain, Application, Infrastructure e Web, com cache e novas tentativas no acesso ao Firebase.
@@ -45,6 +49,10 @@ Acervo de guias e scripts para diagnóstico e administração de bancos Oracle, 
 ### Dashboard climático web
 
 Interface para visualizar dados de ambientes e aquário, com gráficos, tabelas, exportação PDF/JSON e consultas públicas de clima.
+
+<img src="assets/projetos/dashboard-web-mobile.png" alt="Dashboard web com indicadores e gráfico climático na largura de um celular" width="260" />
+
+*Site publicado em largura de 390 px, com interação por toque emulada. Captura de 20/10/2026.*
 
 - **Stack:** JavaScript, HTML, CSS, Chart.js e Firebase; BrasilAPI, ViaCEP e Open-Meteo no modo público.
 - **Diferencial:** aplicação estática com módulos por responsabilidade, carregamento sob demanda e verificações de interface e acessibilidade.

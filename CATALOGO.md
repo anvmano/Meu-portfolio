@@ -26,6 +26,10 @@ Evolução do dashboard estático para uma aplicação com processamento no back
 
 **Diferencial técnico:** separação em Domain, Application, Infrastructure e Web, com injeção de dependências, acesso HTTP isolado, cache e novas tentativas de leitura do Firebase.
 
+![Organização do backend .NET em Web, Application, Infrastructure e Domain, com integrações Firebase e APIs externas](assets/projetos/arquitetura-dotnet.svg)
+
+*Visão simplificada do fluxo entre interface, serviços/contratos e implementações. As linhas tracejadas indicam uso dos modelos de Domain.* [Fonte do diagrama](assets/projetos/arquitetura-dotnet.dot).
+
 [Código](https://github.com/anvmano/estacao-climatica-csharp) · [Instalação e execução](https://github.com/anvmano/estacao-climatica-csharp/blob/main/docs/README.md) · [Organização do backend](https://github.com/anvmano/estacao-climatica-csharp/tree/2dd5fe9a43c697f680ad8463a67d4ffb4bd8f52a/src) · [Testes](https://github.com/anvmano/estacao-climatica-csharp/tree/2dd5fe9a43c697f680ad8463a67d4ffb4bd8f52a/tests/EstacaoClimatica.Tests)
 
 ## Oracle-Database

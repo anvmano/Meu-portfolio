@@ -1,0 +1,21 @@
+digraph Backend {
+ graph [rankdir=TB, bgcolor="#ffffff", pad="0.35", nodesep="0.4", ranksep="0.6", splines=polyline, fontname="Arial", label="Estação Climática | Organização do backend .NET", labelloc=t, fontsize=22, fontcolor="#0f172a"];
+ node [shape=box, style="rounded,filled", fontname="Arial", fontsize=14, margin="0.2,0.16", color="#cbd5e1", fillcolor="#f8fafc", fontcolor="#0f172a", penwidth=1.2];
+ edge [fontname="Arial", fontsize=10, color="#64748b", fontcolor="#475569", arrowsize=0.7, penwidth=1.3];
+ ui [label="Interface web\nJavaScript + Chart.js", fillcolor="#eff6ff", color="#93c5fd"];
+ web [label="Web\nASP.NET Core Controllers\nHTTP / JSON", fillcolor="#eff6ff", color="#93c5fd"];
+ app [label="Application\nServiços e abstrações\nConsultas e regras de dados", fillcolor="#ecfdf5", color="#6ee7b7"];
+ infra [label="Infrastructure\nRepositório Firebase\nClientes HTTP e autenticação", fillcolor="#f5f3ff", color="#c4b5fd"];
+ domain [label="Domain\nModelos e respostas", fillcolor="#fff7ed", color="#fdba74"];
+ firebase [label="Firebase\nRealtime Database", fillcolor="#f8fafc"];
+ external [label="APIs externas\nOpen-Meteo\nBrasilAPI / ViaCEP", fillcolor="#f8fafc"];
+ ui -> web [label="requisições"];
+ web -> app [label="serviços / contratos"];
+ app -> infra [label="implementações"];
+ infra -> firebase [label="REST"];
+ infra -> external [label="HTTP"];
+ app -> domain [style=dashed, label="modelos", constraint=false];
+ infra -> domain [style=dashed, constraint=false];
+ {rank=same; app;domain;}
+ {rank=same; ui;web;}
+}

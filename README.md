@@ -30,7 +30,7 @@ Backend e dashboard para consultar históricos de sensores e clima público por 
 - **Stack:** C#, .NET 8, ASP.NET Core, Firebase REST, JavaScript e Chart.js; testes com xUnit e Playwright.
 - **Diferencial:** evolução do dashboard estático para uma solução com projetos Domain, Application, Infrastructure e Web, com cache e novas tentativas no acesso ao Firebase.
 
-[Código](https://github.com/anvmano/estacao-climatica-csharp) · [Execução](https://github.com/anvmano/estacao-climatica-csharp/blob/main/docs/README.md) · [Análise e evidências](CATALOGO.md#estacao-climatica-csharp)
+[Código](https://github.com/anvmano/estacao-climatica-csharp) · [Execução](https://github.com/anvmano/estacao-climatica-csharp/blob/main/docs/README.md) · [Detalhes técnicos](CATALOGO.md#estacao-climatica-csharp)
 
 ### Oracle Database
 
@@ -40,7 +40,7 @@ Acervo de guias e scripts para diagnóstico e administração de bancos Oracle, 
 - **Stack:** Oracle Database, SQL, PL/SQL, SQL*Plus, RMAN, Oracle Linux e OCI; Python nos verificadores locais.
 - **Diferencial:** organização por tarefa, separação entre consulta e alteração, parâmetros bind e verificações explícitas nos scripts de manutenção.
 
-[Código e guias](https://github.com/anvmano/Oracle-Database) · [Biblioteca por assunto](https://github.com/anvmano/Oracle-Database/blob/main/scripts/CATALOGO.md) · [Análise e evidências](CATALOGO.md#oracle-database)
+[Código e guias](https://github.com/anvmano/Oracle-Database) · [Biblioteca por assunto](https://github.com/anvmano/Oracle-Database/blob/main/scripts/CATALOGO.md) · [Detalhes técnicos](CATALOGO.md#oracle-database)
 
 ### Dashboard climático web
 
@@ -49,11 +49,11 @@ Interface para visualizar dados de ambientes e aquário, com gráficos, tabelas,
 - **Stack:** JavaScript, HTML, CSS, Chart.js e Firebase; BrasilAPI, ViaCEP e Open-Meteo no modo público.
 - **Diferencial:** aplicação estática com módulos por responsabilidade, carregamento sob demanda e verificações de interface e acessibilidade.
 
-[Código](https://github.com/anvmano/anvmano.github.io) · [Demonstração web](https://anvmano.github.io/) · [Análise e evidências](CATALOGO.md#anvmano-github-io)
+[Código](https://github.com/anvmano/anvmano.github.io) · [Demonstração web](https://anvmano.github.io/) · [Detalhes técnicos](CATALOGO.md#anvmano-github-io)
 
 ## Catálogo completo
 
-Os seis projetos estão organizados por área, com funcionalidades, tecnologias, estado, limitações e evidências no código:
+Os seis projetos estão organizados por área, com funcionalidades, tecnologias, diferenciais técnicos e links para o código:
 
 - **Backend e APIs:** [estacao-climatica-csharp](CATALOGO.md#estacao-climatica-csharp).
 - **Bancos de dados:** [Oracle-Database](CATALOGO.md#oracle-database).
@@ -71,12 +71,8 @@ Desenvolvimento e manutenção de sistemas corporativos, regras de negócio, con
 
 Administração Oracle e Oracle Linux, backups e testes de recuperação, controle de acesso e análise de desempenho SQL.
 
-[Trajetória, formação e competências por fonte](docs/EXPERIENCIA.md)
+[Trajetória, formação e competências](docs/EXPERIENCIA.md)
 
 ## Contato
 
 [LinkedIn](https://www.linkedin.com/in/anvmano/) · [E-mail profissional](mailto:anvmano@gmail.com) · [GitHub](https://github.com/anvmano)
-
----
-
-Conteúdo revisado em 20/10/2026 a partir do currículo e do código público. [Auditoria e critérios](docs/AUDITORIA.md) · [Publicação e manutenção](docs/PUBLICACAO.md)

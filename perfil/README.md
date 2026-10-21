@@ -18,14 +18,14 @@ Experiência no desenvolvimento e manutenção de sistemas com C#/.NET, ASP.NET 
 
 ## Catálogo completo
 
-O [portfólio completo](https://github.com/anvmano/Meu-portfolio) reúne os seis projetos, incluindo estação ESP32, monitoramento de sensores e controle de iluminação. As análises apontam evidências no código e descrevem as limitações de cada projeto.
+O [portfólio completo](https://github.com/anvmano/Meu-portfolio) reúne os seis projetos, incluindo estação ESP32, monitoramento de sensores e controle de iluminação. Cada projeto apresenta objetivo, tecnologias, funcionalidades e links para sua implementação.
 
 ## Trajetória
 
 - **LG Lugar de Gente · jan/2022 a jun/2026:** desenvolvimento backend C#, sistemas corporativos, consultas SQL, testes com NUnit/Playwright e validações com FluentValidation.
 - **3DB Solutions · jul/2017 a jul/2019:** administração Oracle/Linux, backups, testes de recuperação e desempenho SQL.
 
-Experiência resumida a partir do currículo. Detalhes de formação e competências estão no [portfólio](https://github.com/anvmano/Meu-portfolio).
+Formação e competências estão no [portfólio](https://github.com/anvmano/Meu-portfolio).
 
 ## Contato
 

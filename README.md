@@ -1,21 +1,82 @@
-[![author](https://img.shields.io/badge/author-anvmano-brightgreen.svg)](https://www.linkedin.com/in/anvmano/) [![python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/downloads/release/python-392/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![Oracle Cloud](https://img.shields.io/badge/Oracle-Cloud-blue)](https://www.oracle.com/br/cloud/) [![Oracle 12c](https://img.shields.io/badge/Oracle-12c-red)](https://www.oracle.com/br/corporate/features/database-12c/) [![Oracle 18c](https://img.shields.io/badge/Oracle-18c-red)](https://docs.oracle.com/en/database/oracle/oracle-database/18/) [![Oracle 19c](https://img.shields.io/badge/Oracle-19c-red)](https://www.oracle.com/br/database/technologies/) [![repositories welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/anvmano?tab=repositories)
+# André Navarro
 
-<p align="center">
-  <img src="https://github.com/anvmano/meu_portf-lio/blob/main/DS.jpg">
-</p>
+**Desenvolvedor Backend C#/.NET · Sistemas corporativos, integrações e bancos de dados**
 
-# Andre Navarro
-<sub>*Data Scientist* student</sub>
+Desenvolvo e mantenho sistemas corporativos com C#/.NET, com experiência em regras de negócio, SQL e testes automatizados. Minha trajetória inclui atuação como DBA Oracle. Nos projetos públicos, exploro APIs ASP.NET Core, processamento de dados climáticos e integração com dispositivos ESP32.
 
+[Projetos em destaque](#projetos-em-destaque) · [Catálogo completo](CATALOGO.md) · [Experiência e formação](docs/EXPERIENCIA.md) · [LinkedIn](https://www.linkedin.com/in/anvmano/) · [GitHub](https://github.com/anvmano)
 
+## Stack e competências
 
-Com experiência com administrador de banco de dados Oracle, SQL e data analytics, consigo combinar minhas habilidades para trabalho em equipe e atenção a detalhes. Tenho passado os últimos anos aprendendo SQL e Machine Learning para trazer soluções para outros
-Graduado em ciência da computação pela Faculdade Paulista e pós-graduação em data science and big data analytics pela Faculdade Metropolitana. Com experiência de 2 anos como DBA Oracle
+**Stack principal na experiência profissional:** C#, .NET Framework, ASP.NET MVC, NHibernate e SQL Server.
 
-**Background in:** Python, Machine Learning, SQL, Oracle, Linux, Windows.
+**Evidências nos projetos públicos:** C#/.NET 8, ASP.NET Core, APIs HTTP, injeção de dependências, Firebase REST, xUnit e Playwright. O [catálogo](CATALOGO.md) aponta os arquivos que sustentam cada descrição.
 
-**Links:**
-* [LinkedIn](https://www.linkedin.com/in/anvmano/)
+| Área | Tecnologias e aplicação |
+| --- | --- |
+| Backend | C#/.NET, regras de negócio, integração HTTP e processamento de séries temporais. |
+| Dados | SQL Server na experiência profissional; Oracle, SQL e PL/SQL no acervo técnico. |
+| Testes e qualidade | NUnit, Playwright e FluentValidation na experiência profissional; xUnit/Playwright no projeto .NET e verificadores no projeto web. |
+| Frontend complementar | JavaScript, HTML, CSS e Chart.js nos dashboards; TypeScript e Telerik na experiência profissional. |
+| Automação e ferramentas | C++/Arduino, ESP32 e LittleFS nos firmwares; Git nos projetos, SVN e Redmine na experiência profissional. |
 
-## Portfolios:
-  * [Oracle Database](https://github.com/anvmano/Oracle-Database/blob/main/README.md)
+## Projetos em destaque
+
+### Estação Climática em C#/.NET
+
+Backend e dashboard para consultar históricos de sensores e clima público por CEP, cidade ou localização.
+
+- **Implementação:** API com controllers, estatísticas, séries, comparações, exportações e acesso interno por Firebase ID token e lista de e-mails autorizados.
+- **Stack:** C#, .NET 8, ASP.NET Core, Firebase REST, JavaScript e Chart.js; testes com xUnit e Playwright.
+- **Diferencial:** evolução do dashboard estático para uma solução com projetos Domain, Application, Infrastructure e Web, com cache e novas tentativas no acesso ao Firebase.
+
+[Código](https://github.com/anvmano/estacao-climatica-csharp) · [Execução](https://github.com/anvmano/estacao-climatica-csharp/blob/main/docs/README.md) · [Análise e evidências](CATALOGO.md#estacao-climatica-csharp)
+
+### Oracle Database
+
+Acervo de guias e scripts para diagnóstico e administração de bancos Oracle, ligado à minha trajetória anterior como DBA.
+
+- **Conteúdo:** tutoriais, roteiros por sintoma e biblioteca com 77 consultas, 7 intervenções e 6 geradores de DDL, além do inicializador.
+- **Stack:** Oracle Database, SQL, PL/SQL, SQL*Plus, RMAN, Oracle Linux e OCI; Python nos verificadores locais.
+- **Diferencial:** organização por tarefa, separação entre consulta e alteração, parâmetros bind e verificações explícitas nos scripts de manutenção.
+
+[Código e guias](https://github.com/anvmano/Oracle-Database) · [Biblioteca por assunto](https://github.com/anvmano/Oracle-Database/blob/main/scripts/CATALOGO.md) · [Análise e evidências](CATALOGO.md#oracle-database)
+
+### Dashboard climático web
+
+Interface para visualizar dados de ambientes e aquário, com gráficos, tabelas, exportação PDF/JSON e consultas públicas de clima.
+
+- **Stack:** JavaScript, HTML, CSS, Chart.js e Firebase; BrasilAPI, ViaCEP e Open-Meteo no modo público.
+- **Diferencial:** aplicação estática com módulos por responsabilidade, carregamento sob demanda e verificações de interface e acessibilidade.
+
+[Código](https://github.com/anvmano/anvmano.github.io) · [Demonstração web](https://anvmano.github.io/) · [Análise e evidências](CATALOGO.md#anvmano-github-io)
+
+## Catálogo completo
+
+Os seis projetos estão organizados por área, com funcionalidades, tecnologias, estado, limitações e evidências no código:
+
+- **Backend e APIs:** [estacao-climatica-csharp](CATALOGO.md#estacao-climatica-csharp).
+- **Bancos de dados:** [Oracle-Database](CATALOGO.md#oracle-database).
+- **Sistemas web e frontend:** [anvmano.github.io](CATALOGO.md#anvmano-github-io).
+- **Eletrônica e integrações:** [estacao-climatica](CATALOGO.md#estacao-climatica) e [SensorsController](CATALOGO.md#sensorscontroller).
+- **Automação de iluminação:** [LightingController](CATALOGO.md#lightingcontroller).
+
+## Experiência
+
+**LG Lugar de Gente · Desenvolvedor Backend C# · jan/2022 a jun/2026**
+
+Desenvolvimento e manutenção de sistemas corporativos, regras de negócio, consultas SQL, testes automatizados e validações.
+
+**3DB Solutions · Database Administrator · jul/2017 a jul/2019**
+
+Administração Oracle e Oracle Linux, backups e testes de recuperação, controle de acesso e análise de desempenho SQL.
+
+[Trajetória, formação e competências por fonte](docs/EXPERIENCIA.md)
+
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/anvmano/) · [E-mail profissional](mailto:anvmano@gmail.com) · [GitHub](https://github.com/anvmano)
+
+---
+
+Conteúdo revisado em 20/10/2026 a partir do currículo e do código público. [Auditoria e critérios](docs/AUDITORIA.md) · [Publicação e manutenção](docs/PUBLICACAO.md)

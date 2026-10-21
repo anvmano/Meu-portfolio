@@ -10,9 +10,9 @@ Experiência no desenvolvimento e manutenção de sistemas com C#/.NET, ASP.NET 
 
 **Conhecimentos complementares:** JavaScript, visualização de dados, Oracle/PLSQL e automação com ESP32.
 
-[![Gráficos de temperatura, sensação térmica, umidade, pressão e chuva da aplicação C#/.NET](https://raw.githubusercontent.com/anvmano/Meu-portfolio/main/assets/projetos/estacao-dotnet-perfil.png)](https://github.com/anvmano/estacao-climatica-csharp)
+[![Dashboard climático com busca por cidade ou localização, indicadores, recomendações ambientais e gráficos](https://raw.githubusercontent.com/anvmano/Meu-portfolio/main/assets/projetos/dashboard-climatico-perfil.png)](https://github.com/anvmano/Meu-portfolio#projetos-em-destaque)
 
-*Estação Climática em C#/.NET: modo público executado localmente, com dados externos de São Paulo. Clique na imagem para acessar o código.*
+*Dashboard climático com consulta por localização, indicadores ambientais e visualização de dados. Clique na imagem para conhecer os projetos.*
 
 ## Projetos em destaque
 

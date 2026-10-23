@@ -10,9 +10,9 @@ Experiência no desenvolvimento e manutenção de sistemas com C#/.NET, ASP.NET 
 
 **Conhecimentos complementares:** JavaScript, visualização de dados, Oracle/PLSQL e automação com ESP32.
 
-[![Dashboard climático com busca por cidade ou localização, indicadores, recomendações ambientais e gráficos](https://raw.githubusercontent.com/anvmano/Meu-portfolio/main/assets/projetos/dashboard-climatico-perfil.png)](https://github.com/anvmano/Meu-portfolio#projetos-em-destaque)
+[![Dashboard climático web com busca por cidade ou localização, indicadores, recomendações ambientais e gráficos](https://raw.githubusercontent.com/anvmano/Meu-portfolio/main/assets/projetos/dashboard-climatico-perfil.png)](https://anvmano.github.io/)
 
-*Dashboard climático com consulta por localização, indicadores ambientais e visualização de dados. Clique na imagem para conhecer os projetos.*
+*Dashboard climático web com busca por cidade ou localização, indicadores ambientais e gráficos. Clique na imagem para abrir a demonstração.*
 
 ## Projetos em destaque
 

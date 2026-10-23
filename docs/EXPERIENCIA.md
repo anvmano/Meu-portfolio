@@ -27,13 +27,13 @@ Entre os resultados dessa atuação está a otimização de uma rotina de aproxi
 
 ## Formação acadêmica
 
-| Formação | Instituição | Ano informado |
+| Formação | Instituição | Ano |
 | --- | --- | --- |
 | Análise e Desenvolvimento de Sistemas | UNIGOIÁS | 2023 |
 | Pós-graduação em Ciência de Dados e Big Data Analytics | Faculdade Metropolitana | 2021 |
 | Ciência da Computação | Universidade Paulista | 2019 |
 
-**Idioma:** inglês intermediário, conforme o currículo.
+**Idioma:** inglês intermediário.
 
 ## Competências profissionais
 
